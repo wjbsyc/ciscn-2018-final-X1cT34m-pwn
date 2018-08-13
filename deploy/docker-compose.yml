@@ -1,0 +1,7 @@
+version: "2"
+services:
+  rpc_final:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "1337:1337"
